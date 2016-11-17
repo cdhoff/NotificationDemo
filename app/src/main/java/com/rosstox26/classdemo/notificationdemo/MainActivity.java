@@ -71,7 +71,7 @@ private void sendNotification(String text) {
 
     int icon = R.mipmap.ic_launcher;
     CharSequence ticketText = "You App Has Been Updated";
-//    CharSequence contentTitle = getText(R.string.app_name);
+//    CharSequence contentTitle = getText(R.string.app_name); // for getting app name
     CharSequence contentTitle = "Click to see your reward";
     CharSequence contentText = text;
 
